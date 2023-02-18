@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,400;1,600&family=Roboto:wght@400;500;700&display=swap');
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: white !important;
+}
+
+p{
+  font-family: "Cormorant Garamond", serif;
+  font-size: large;
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:bold;
+  
+}
+
+h5 {
+font-family: 'Roboto', sans-serif;
+/*   font-size: 1.1rem !important; */
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.finestracard{
+/* height: 55vh; */
+width: 250px; 
+margin-left: 20px;
+margin-right: 20px;
+/* glassmorfismo: */
+background: rgba(255, 255, 255, 0.1);
+box-shadow: 0 8px 32px 0 #b7ac7f;
+backdrop-filter: blur( 2px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+/* CSS DI JASMEEN */
+
+
+    /* quadrante */
+    .profile-container {
+      width: 40vw;
+      height: 70vh;
+      overflow: auto;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 8px 32px 0 #b7ac7f;
+      backdrop-filter: blur( 2px );
+      -webkit-backdrop-filter: blur( 1px );
+      border-radius: 10px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
+        }
+        
+.salva{
+	border: none;
+	background-color: transparent;
+}
+
+.scroll {
+  scrollbar-color: var(--scroll-thumb-color, grey) var(--scroll-track, transparent);
+  scrollbar-width: thin;
+}
+.scroll::-webkit-scrollbar {
+  width: var(--scroll-size, 10px);
+  height: var(--scroll-size, 10px);
+}
+.scroll::-webkit-scrollbar-track {
+  background-color: var(--scroll-track, transparent);
+  border-radius: var(--scroll-track-radius, var(--scroll-radius));
+}
+.scroll::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb-color, grey);
+  background-image: var(--scroll-thumb, none);
+  border-radius: var(--scroll-thumb-radius, var(--scroll-radius));
+}
+.scroll-1 {
+  --scroll-size: 10px;
+  --scroll-radius: 10px;
+  --scroll-track: rgb(0 0 0 / 40%);
+  --scroll-thumb-color: #dfdfdf;
+}
+.scroll-2 {
+  --scroll-size: 8px;
+  --scroll-radius: 10px;
+  --scroll-track: rgb(255 255 255 / 10%);
+  --scroll-thumb-color: rgb(0 0 0 / 80%);
+}
+.scroll-3 {
+  --scroll-size: 5px;
+  --scroll-radius: 10px;
+  --scroll-track: rgb(255 255 255 / 10%);
+  --scroll-thumb-color: #fff;
+}
+.scroll-4 {
+  --scroll-size: 12px;
+  --scroll-radius: 20px;
+  --scroll-track: rgb(0 0 0 / 40%);
+  --scroll-thumb: linear-gradient(45deg,
+      rgba(255, 255, 255, 0.25) 20%, transparent 20%,
+      transparent 40%, rgba(255, 255, 255, 0.25) 40%,
+      rgba(255, 255, 255, 0.25) 60%, transparent 60%,
+      transparent 80%, rgba(255, 255, 255, 0.25) 80%);
+  --scroll-thumb-color: #f97316;
+}
+.scroll-5 {
+  --scroll-size: 15px;
+  --scroll-radius: 20px;
+  --scroll-track: rgb(255 255 255 / 10%);
+  --scroll-thumb: linear-gradient(45deg, #00aeff, #a68eff);
+}
+.scroll-6 {
+  --scroll-size: 12px;
+  --scroll-radius: 20px;
+  --scroll-track: rgb(0 0 0 / 40%);
+  --scroll-thumb: linear-gradient(
+      rgba(255, 255, 255, 0.3) 20%, transparent 20%,
+      transparent 40%, rgba(255, 255, 255, 0.3) 40%,
+      rgba(255, 255, 255, 0.3) 60%, transparent 60%,
+      transparent 80%, rgba(255, 255, 255, 0.3) 80%);
+  --scroll-thumb-color: #10b981;
+}
+
+.animazione-icona:hover{
+	transform: scale(1.1);
+}
